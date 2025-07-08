@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1213937975899351482
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7016544990671261822}
+  - component: {fileID: 3584499304709916436}
+  m_Layer: 0
+  m_Name: Enemy Group (Mini Boss)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7016544990671261822
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213937975899351482}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.04989606, z: -0, w: 0.99875444}
+  m_LocalPosition: {x: 124.54114, y: 19.6, z: 163.67609}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 34228612446503911}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 5.72, z: 0}
+--- !u!320 &3584499304709916436
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213937975899351482}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: a8bde147dfdea6944a675f96288a17ec, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 1908901916377197730, guid: a8bde147dfdea6944a675f96288a17ec, type: 2}
+    value: {fileID: 9064436484150524477}
+  m_ExposedReferences:
+    m_References: []
+--- !u!1001 &3173513882299584415
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7016544990671261822}
+    m_Modifications:
+    - target: {fileID: 3202917718671723640, guid: ad0de32d47852004faae3d656b64e6ea, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3202917718671723640, guid: ad0de32d47852004faae3d656b64e6ea, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3202917718671723640, guid: ad0de32d47852004faae3d656b64e6ea, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3202917718671723640, guid: ad0de32d47852004faae3d656b64e6ea, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3202917718671723640, guid: ad0de32d47852004faae3d656b64e6ea, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3202917718671723640, guid: ad0de32d47852004faae3d656b64e6ea, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3202917718671723640, guid: ad0de32d47852004faae3d656b64e6ea, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3202917718671723640, guid: ad0de32d47852004faae3d656b64e6ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3202917718671723640, guid: ad0de32d47852004faae3d656b64e6ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3202917718671723640, guid: ad0de32d47852004faae3d656b64e6ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6633764824662409035, guid: ad0de32d47852004faae3d656b64e6ea, type: 3}
+      propertyPath: m_Name
+      value: Mini Boss
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6633764824662409035, guid: ad0de32d47852004faae3d656b64e6ea, type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 9064436484150524477}
+  m_SourcePrefab: {fileID: 100100000, guid: ad0de32d47852004faae3d656b64e6ea, type: 3}
+--- !u!4 &34228612446503911 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3202917718671723640, guid: ad0de32d47852004faae3d656b64e6ea, type: 3}
+  m_PrefabInstance: {fileID: 3173513882299584415}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8071941444870811860 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6633764824662409035, guid: ad0de32d47852004faae3d656b64e6ea, type: 3}
+  m_PrefabInstance: {fileID: 3173513882299584415}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &9064436484150524477
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8071941444870811860}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
